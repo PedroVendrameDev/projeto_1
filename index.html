@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Projeto ONG</title>
+        <!--Direcionamento para o arquivo CSS-->
         <link rel="stylesheet" href="/CSS/estilo.css">
     </head>
     <body>
@@ -11,19 +12,19 @@
             <h1>ONG para ajudar na doação de animais</h1>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="páginas/adocao.html">Adoção</a></li>
-                    <li><a href="páginas/contato.html">Contato</a></li>
+                    <li class="impar"><a href="index.html">Home</a></li>
+                    <li class="par"><a href="páginas/adocao.html">Adoção</a></li>
+                    <li class="impar"><a href="páginas/contato.html">Contato</a></li>
                 </ul>
             </nav>
        </header>
         <main>
-            <h2>Quem somos</h2>
+            <h2 id="quem-somos">Quem somos</h2>
             <p>
                 A ONG - Cachorro feliz existe para auxiliar
                 na doação de animais abandonados.
             </p>
-            <h2>Destaques</h2>
+            <h2 id="destaques">Destaques</h2>
             <ol>
                 <li><img src="/Imagens/REX.jpg"
                         alt="Imagem de um cachorro brabo" width="200px" height="200px">REX</li>
@@ -40,9 +41,9 @@
             <p>Baixe <a href="#" target="_blank">aqui</a> nosso regulamento de adoção.</p>
         </main>
         <footer>
-            <h2 id="contatos">Contatos</h2>
-            <p>Para entrar em contato, envie um e-mail para contato@ongcachorrolfeliz.org </p>
-            <p>ou ligue para (11) 1234-5678.</p>
+            <h2 class="paragrafo_grande">Contatos</h2>
+            <p class="paragrafo_grande">Para entrar em contato, envie um e-mail para contato@ongcachorrolfeliz.org </p>
+            <p class="paragrafo_grande">ou ligue para (11) 1234-5678.</p>
         </footer>
     </body>
 </html>

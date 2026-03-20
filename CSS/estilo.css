@@ -1,4 +1,44 @@
-header, main
-{
+header{
     background-color: aquamarine;
+    color: brown;
+}
+
+h1{
+    text-align: center;
+    background-color: beige;
+    color: blueviolet;
+}
+
+main{
+    background-color: lightblue;
+    color: black;
+    padding: 20px;
+}
+
+h2{
+    color: darkblue;
+}
+
+#destaques{
+    color: red;
+}
+
+footer p{
+    font-size: 50px;
+    line-height: 1.5;
+}  /*Altera todos os paragráfos que estão dentro do elemento footer, ou seja, o parágrafo do rodapé.*/
+
+.paragrafo_grande{
+    font-size: 50px;
+    line-height: 1.5;
+    background-color: green;
+} /*Altera apenas os parágrafos que possuem a classe "paragrafo_grande".*/
+
+
+.impar{
+    background-color: rgb(11, 7, 202);
+}
+
+.par{
+    background-color: rgb(202, 14, 7);
 }
